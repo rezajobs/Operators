@@ -16,7 +16,7 @@ while True:
                 print('Division:', number1 / number2)
     else:
             print('Invalid operation. Please choose +, -, *, or /.')
-    print('Division :', number1/number2)
+   
 
     continue_calculation = input('Do you want to perform another calculation? (yes/no): ').strip().lower()
     if continue_calculation != 'yes':
